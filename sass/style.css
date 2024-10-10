@@ -130,4 +130,140 @@
   width: 3px;
   height: 60px;
   background-color: #fff;
+}
+
+.blocks {
+  margin-top: -400px;
+  background-color: #0b1d26;
+  padding-left: 230px;
+}
+
+.block {
+  background-color: rgba(11, 29, 38, 0.6);
+  width: 1462px;
+  height: 720px;
+  padding-bottom: 200px;
+  display: flex;
+}
+.block .block_icon {
+  padding: 38px 8px;
+}
+.block_icon {
+  position: absolute;
+}
+.block_item h1 {
+  padding: 27px 0 0 134px;
+  font-family: PlayfairDisplay;
+  font-size: 64px;
+  font-weight: 600;
+  text-align: left;
+  color: #fff;
+}
+.block_item-descr {
+  padding: 27px 0 0 134px;
+  align-self: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.78;
+  text-align: left;
+  color: #fff;
+}
+.block_item .item {
+  padding: 190px 0 0 134px;
+  display: flex;
+  color: #fbd784;
+}
+.block_item .item .tire {
+  margin-top: 10px;
+  position: relative;
+  background-color: #fbd784;
+  width: 76px;
+  height: 2px;
+}
+.block_item .item span {
+  padding-left: 32px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 6px;
+  text-align: left;
+  color: #fbd784;
+  text-transform: uppercase;
+}
+.block_item .scrol {
+  padding: 27px 0 0 134px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  color: #fbd784;
+  display: flex;
+}
+.block_item .scrol img {
+  padding: 4px 0 0 6px;
+  width: 24px;
+  height: 16px;
+}
+.block_item .scrol img:hover {
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #0b1d26;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+.footer_descr {
+  padding-left: 234px;
+}
+.footer_descr h3 {
+  font-family: PlayfairDisplay;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 0.32px;
+  text-align: left;
+  color: #fff;
+}
+.footer_descr p {
+  padding-top: 19px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.78;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 122px;
+}
+.footer_descr span {
+  opacity: 0.5;
+  font-family: Poppins;
+  font-size: 18px;
+  line-height: 1.78;
+  text-align: left;
+  color: #fff;
+}
+.footer_link {
+  display: flex;
+  flex-direction: column;
+}
+.footer_link-title {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.33;
+  text-align: left;
+  color: #fbd784;
+  margin-bottom: 24px;
+}
+.footer_link-item {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.78;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+  padding-bottom: 16px;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
