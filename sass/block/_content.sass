@@ -1,19 +1,96 @@
 .blocks
-    margin-top: -400px
+    position: relative
     background-color:  #0b1d26
-    padding-left: 230px
-    
+.block1
+    margin-top: -400px    
 .block
-    background-color: rgb(11, 29, 38, 0.6)
-    width: 1462px
+    position: relative
+    left: 50%
+    transform: translate(-50%, -0%)
+    background-color: rgba (255, 255, 255, 0.1)
+    max-width: 1300px
     height: 720px
     padding-bottom: 200px
     display: flex
-    .block_icon
-        padding: 38px 8px
+    justify-content: space-between
+    &_img
+        object-fit: cover
     &_icon
+        padding: 38px 8px
         position: absolute
     &_item
+        h1
+            padding: 27px  0 0 100px
+            font-family: PlayfairDisplay
+            font-size: 64px
+            font-weight: 600
+            text-align: left
+            color: #fff
+        &-descr
+            padding: 27px  0 0 100px
+            align-self: center
+            font-family: Poppins
+            font-size: 18px
+            font-weight: bold
+            line-height: 1.78
+            text-align: left
+            color: #fff
+            padding-right: 130px
+        .item
+            padding: 190px  0 0 100px
+            display: flex
+            color: $main-color
+            .tire
+                margin-top: 10px
+                position: relative
+                background-color: $main-color
+                width: 76px
+                height: 2px
+            span
+                padding-left: 32px
+                font-family: Poppins
+                font-size: 18px
+                font-weight: 800
+                letter-spacing: 6px
+                text-align: left
+                color: $main-color
+                text-transform: uppercase
+        .scrol
+            padding: 27px  0 0 100px
+            font-family: Poppins
+            font-size: 18px
+            font-weight: bold
+            text-align: left
+            color: $main-color
+            display: flex
+            img
+                padding: 4px 0 0 6px
+                width: 24px
+                height: 16px
+                &:hover
+                    cursor: pointer
+.block2
+    position: relative
+    left: 50%
+    transform: translate(-50%, 0%)
+    background-color: rgba (255, 255, 255, 0.1)
+    max-width: 1300px
+    height: 720px
+    padding-bottom: 200px
+    display: flex
+    flex-direction: row-reverse
+    &_img
+        width: 566px
+        height: 720px
+        object-fit: cover
+        
+    &_icon
+        position: absolute
+        padding-right: 300px
+        padding-top: 40px
+        
+    &_item
+        padding-left: 120px
         h1
             padding: 27px  0 0 134px
             font-family: PlayfairDisplay
@@ -64,4 +141,4 @@
                 &:hover
                     cursor: pointer
                
-            
+           

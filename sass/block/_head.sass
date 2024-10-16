@@ -3,7 +3,7 @@
     padding-left: 91px
     padding-top: 66px
     display: grid
-    grid-template-columns: 115px 1500px 115px
+    grid-template-columns: 115px minmax(400px, 1500px) 115px
     &_logo
         width: 113px
         height: 37px
@@ -27,13 +27,19 @@
             font-weight: bold
             text-align: left
             color: #fff
+    .hamburger 
+        display: none
+.active 
+    display: none
+
 .head
     height: 1900px
     background: url(../img/BG1_1920.png) center (center/cover) no-repeat
     &_titel
-        display: grid
-        grid-template-columns: 500px 950px 470px
+        display: flex
+        justify-content: space-between
         &-items
+            margin-right: 200px
             padding-top: 286px
             .item
                 display: flex
@@ -53,6 +59,7 @@
                 color: $main-color
                 text-transform: uppercase
             h1
+                width: 800px
                 font-family: PlayfairDisplay
                 font-size: 88px
                 font-weight: 600
